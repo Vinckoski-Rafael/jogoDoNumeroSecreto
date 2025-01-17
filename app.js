@@ -5,7 +5,7 @@
 // paragrafo.innerHTML= 'Escolha um numero de 1 a 10:';
 
 let listaDeNumerosSorteados=[];
-let limiteNumerosLista=100
+let limiteNumerosLista=1000;
 let numeroAleatorio= gerarNumeroAleatorio();
 let tentativas=1;
 mensagemInicial();
@@ -70,7 +70,7 @@ function limparTela(){
 
 function mensagemInicial(){
     exibirTextoNaTela('h1','Jogo do numero secreto');
-    exibirTextoNaTela('p','Escolha um numero de 1 a 100');
+    exibirTextoNaTela('p','Escolha um numero de 1 a 1000');
 }
 
 function reiniciarJogo(){
